@@ -3,6 +3,10 @@
   "name": "first-1",
   "version": "0.1.0",
   "private": false,
+  "engines": {
+     "node": "12.x",
+     "npm": "*"
+   },
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
     "@testing-library/jest-dom": "^5.11.5",
@@ -27,7 +31,6 @@
   "scripts": {
     "start": "node server.js",
     "build": "react-scripts build",
-    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
