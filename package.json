@@ -1,8 +1,8 @@
 {
-  "homepage": "https://github.com/Ewergarden/react-app.git",
+  "homepage": "https://github.com/Antares323/Diplom.git",
   "name": "first-1",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
     "@testing-library/jest-dom": "^5.11.5",
