@@ -1,0 +1,110 @@
+.users {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    .users__paginator {
+        margin-top: 10px;
+        padding: 5px 0px;
+        border-bottom: 1px solid  #E7EDF2;
+        border-top: 1px solid  #E7EDF2;
+    }
+    .users__list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 700px;
+        justify-content: space-around;
+        .users__list-item {
+            border-radius: 10px;
+            box-shadow:  7px 5px 10px rgba(0,0,0,0.2);
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0px;
+            padding: 30px 0px;
+            .users__list-avatar {
+                margin-top: 40px;
+                width: 80px;
+                height: 77px;
+                border-radius: 50%;
+                overflow: hidden;
+                img {
+                    display: block;
+                    width: 100%;
+                }
+            }
+            .users__list-about {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 5px;
+                .users__list-name {
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+                .users__list-status {
+                    opacity: 0.5;
+                    font-size: 14px;
+                }
+
+            }
+            .users__list-followed {
+                .users__list-followed-btn {
+                    margin: 20px 0px;
+                    width: 150px;
+                    height: 40px;
+                    border-radius: 50px;
+                    color: #9D53E9;
+                    border-color: #9D53E9;
+                    background:white;
+                    outline: none;
+                }
+            }
+        }
+
+    }
+    .users__sidebar {
+        padding: 15px;
+        margin-top: 60px;
+        .users__friend {
+            padding: 20px;
+            width: 200px;
+            height: 100%;
+            background-color:  #FBF8FD;
+            border-radius: 10px;
+            .users__friend-title {
+                font-weight: 600;
+                font-size: 18px;
+                text-transform: uppercase;
+            }
+            .friend {
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+                .friend__avatar {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    margin-right: 10px;
+                    img {
+                        display: block;
+                        width: 100%;
+                    }
+                }
+                .friend__info {
+                    p {
+                        margin: 0px;
+                    }
+                    .friend__name {}
+                    .friend__last-seen {
+                        opacity: 0.5;
+                    }
+                }
+            }
+
+        }
+    }
+
+}

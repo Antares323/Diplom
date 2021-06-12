@@ -1,0 +1,36 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+  .login__from {
+    width: 300px;
+  }
+  .login__img {
+    width: 260px;
+    height: 100px; 
+    margin-bottom: 10px;
+  }
+}
+
+div {
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  form {
+    padding: 10px 20px;
+    background-color: #444653;
+  }
+
+  button {
+    background-color: #0070ba;
+    border: none;
+    padding: 0 10px;
+  }
+}

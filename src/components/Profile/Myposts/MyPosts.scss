@@ -1,0 +1,44 @@
+.post {
+  .post__header {
+    text-align: center;
+    textarea,textarea:active,textarea:focus {
+      resize: none;
+      width: 100%;
+      padding: 5px;
+      outline: none;
+      border: none;
+    }
+    .post__button {
+      margin-top: 10px;
+      background-color: #A15CEA;
+      border: none;
+      width: 150px;
+      height: 35px;
+      color: white;
+      border-radius: 50px;
+      cursor: pointer;
+    }
+    .post__button:active,
+    .post__button:focus {
+      outline: none;
+    }
+    .post__button:hover {
+      box-shadow: 0 0 0 3px #8932E5;
+    }
+
+
+    .post__title {
+      font-weight: 500;
+      margin-top: 32px;
+    }
+  }
+  .post__item {
+    margin-top: 10px;
+    div {
+      margin-top: 10px;
+    }
+    .item {
+      display: flex;
+    }
+  }
+}

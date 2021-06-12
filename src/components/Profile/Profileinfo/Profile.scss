@@ -1,0 +1,136 @@
+.profile {
+  .profile__header {
+    position: relative;
+    width: 100%;
+    .profile__header-bg {
+      background: url("https://image.freepik.com/free-vector/monochrome-green-realistic-dark-tropical-leaves-background_23-2148438934.jpg")  no-repeat center / contain;
+      background-size: 100%;
+      height: 150px;
+      width: 100%;
+    }
+    .profile__header-menu {
+      height: 150px;
+      border-bottom: 1px solid #E7EDF2;;
+    }
+    .profile__avatar {
+      position: relative;
+      border: 1px solid #E7EDF2;
+      box-shadow: -5px -5px 5px -5px rgba(231, 237, 242, 0.6) inset;
+      border-radius: 7%;
+      overflow: hidden;
+      width: 160px;
+      height: 150px;
+      left: 30px;
+      top: 50px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      input {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+    }
+    .profile__name {
+
+       font-weight: 600;
+       font-size: 18px;
+       p {
+         text-align: center;
+       }
+    }
+    .profile__user {
+      left: 30px;
+      top: 70px;
+      position: absolute;
+    }
+  }
+  .profile__info {
+    display: flex;
+    width: 100%;
+    .profile__info-title {
+      text-align: center;
+      font-size: 16px;
+      width: 100%;
+      display: block;
+      margin-top: 10px;
+      font-weight: 600;
+    }
+    .profile__info-photos {
+      width: 20%;
+      min-width: 150px;
+      border-right: 1px solid #E7EDF2;
+      .profile__info-photo {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        img {
+          padding-bottom: 10px;
+          max-width: 100px;
+          display: block;
+        }
+      }
+    }
+    .profile__info-me {
+      width: 50%;
+      min-width: 300px;
+      border-right: 1px solid #E7EDF2;
+      .profile__info-status {
+        border-bottom: 2px solid #8224E3;
+        p {
+          font-weight: 600;
+          font-size: 17px;
+        }
+      }
+      .profile__info-container {
+        margin: 0 auto;
+        width: 300px;
+        padding: 10px;
+      }
+    }
+    .profile__info-post {
+      width: 30%;
+      min-width: 300px;
+      margin: 0 auto;
+      padding-left: 10px;
+    }
+
+    .post__title {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    .profile__button-edit {
+      display: block;
+      margin-top: 14px;
+      font-size: 20px;
+    }
+    .profile__data {
+      display: flex;
+      font-size: 15px;
+    }
+    .profile__contact-title {
+      opacity: 0.5;
+    }
+  }
+}
+
+@media screen and (max-width: 1035px) {
+  .profile__info {
+    flex-wrap: wrap;
+  }
+
+  .profile__info-photos {
+    width: 100% !important;
+  }
+
+  .profile__info-photo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}

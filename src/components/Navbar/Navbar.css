@@ -1,0 +1,32 @@
+
+.nav__bar {
+    width: 250px;
+    border: 1px solid #E7EDF2;
+    height: 100vh;
+
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+ a {
+    text-decoration: none;
+     color: #A1A5BE!important;
+     font-size: 17px;
+     text-decoration: none;
+
+}
+a:hover {
+    color: #9D53E9!important;
+    transition: 0.5s ease-out 0.2s;
+}
+
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+

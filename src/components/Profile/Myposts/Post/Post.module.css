@@ -1,0 +1,12 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    margin-right: 400px;
+}
+
+.post_item {
+    padding: 15px;
+    width: 100%;
+    background-color: white;
+    margin: 5px;
+}
