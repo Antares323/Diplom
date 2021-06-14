@@ -68,7 +68,7 @@ const Profileinfo = (props) => {
                         <p>{props.profile.fullName}</p>
                     </div>
                     <div className="profile__time">
-                        <p><input type="number" name="number" max="/></p>
+                        <p><input type="number" name="number" min="0" max="60"/></p>
                         <button>Ok</button>
                     </div>
                 </div>
