@@ -88,7 +88,7 @@ export const updateStatus = (status) => async (dispatch) => {
             dispatch(setStatus(status));
         }
     } catch (error) {
-        alert('Саник')
+        console.log('Beda');
     }
 }
 

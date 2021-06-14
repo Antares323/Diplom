@@ -6,7 +6,6 @@ import userPhoto from "../../assets/images/avatar.png";
 
 let Users = (props) => {
     const friends = props.users.filter( u => u.followed )
-    debugger
     return (
         <div className="users">
             <div>

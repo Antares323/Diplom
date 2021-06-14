@@ -27,10 +27,6 @@ const Navbar = () => {
                     <UsergroupAddOutlined/>
                     Users
                 </NavLink>
-                <NavLink className="nav__link" to='/users'>
-                    <PlayCircleOutlined />
-                    Music
-                </NavLink>
             </nav>
         </div>
 

@@ -67,8 +67,11 @@ const Profileinfo = (props) => {
                     <div className="profile__name">
                         <p>{props.profile.fullName}</p>
                     </div>
+                    <div className="profile__time">
+                        <p><input type="number" name="number" max="/></p>
+                        <button>Ok</button>
+                    </div>
                 </div>
-
             </div>
             <div className="profile__info">
                 <div className="profile__info-photos">

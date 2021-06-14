@@ -6,7 +6,6 @@ import {updateStatus} from "../../redux/profile-reducer";
 
 
 const Profile = (props) => {
-    debugger
     return (
         <div >
             <Profileinfo savePhoto={props.savePhoto} isOwner={props.isOwner} profile={props.profile} status={props.status} updateStatus={props.updateStatus} saveProfile={props.saveProfile} />

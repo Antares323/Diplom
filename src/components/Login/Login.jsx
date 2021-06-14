@@ -24,18 +24,23 @@ const LoginForm = ({handleSubmit,error,captchaUrl}) => {
                            component={Input}/>
                 </div>
                 <div>
-                    <h3>Ваш пароль:</h3><Field placeholder={'Password'} name={'password'} component={Input}/>
+                    <h3>Ваш пароль:</h3><Field placeholder={'Password'} name={'password'} type={'password'} component={Input}/>
                 </div>
-                <div>
-                    <h3>Капча:</h3><Field type={'checkbox'} name={'rememberMe'} component={Input}/>
+                <div className="login__captcha">
+                    <div>
+                        <h3>Капча:</h3><Field type={'checkbox'} name={'rememberMe'} component={Input}/>
+                    </div>
+                    { error && <div>}>
+                        {error}
+                    </div>}
+                    <div className="login__captcha-img">
+                        {captchaUrl && <img src={captchaUrl}/>}
+                        {captchaUrl && <Field placeholder={'Symbols'} name={'captcha'} component={Input}/> }
+                    </div>
                 </div>
-                { error && <div>}>
-                    {error}
-                </div>}
-                {captchaUrl && <img src={captchaUrl}/>}
-                {captchaUrl && <Field placeholder={'Symbols'} name={'captcha'} component={Input}/> }
-                <div>
+                <div className="login__button">
                     <button>Login</button>
+                    <h4><a href="">Forgot  pass?</a></h4>
                 </div>
             </form>
         </div>

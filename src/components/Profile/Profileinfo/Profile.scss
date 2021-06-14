@@ -33,12 +33,10 @@
       }
     }
     .profile__name {
-
+       margin-left: 200px;
+       margin-top: -50px;
        font-weight: 600;
        font-size: 18px;
-       p {
-         text-align: center;
-       }
     }
     .profile__user {
       left: 30px;
@@ -46,6 +44,18 @@
       position: absolute;
     }
   }
+
+  .profile__time {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+
+    button {
+      margin-bottom: 20px;
+      margin-left: 20px;
+    }
+  }
+
   .profile__info {
     display: flex;
     width: 100%;

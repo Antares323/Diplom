@@ -16,6 +16,29 @@
   }
 }
 
+h3 {
+  color: #fff;
+}
+
+.login__button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login__captcha {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login__captcha-img {
+  position: absolute;
+  right: 0;
+}
+
 div {
   input {
     width: 100%;
@@ -30,7 +53,11 @@ div {
 
   button {
     background-color: #0070ba;
+    width: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
     border: none;
-    padding: 0 10px;
+    padding: 3px 10px;
   }
 }

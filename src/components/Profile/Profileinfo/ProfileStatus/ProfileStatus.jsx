@@ -16,7 +16,6 @@ class ProfileStatus extends React.Component {
         this.setState({
             editMode: false
         });
-        debugger
         this.props.updateStatus(this.state.status);
     }
 
@@ -42,7 +41,7 @@ class ProfileStatus extends React.Component {
          return (
             <div>
                 {!this.state.editMode &&
-                    <span onClick={this.activateEditMode}>{this.props.status || 'Nain!'}</span>
+                    <span onClick={this.activateEditMode}>{this.props.status}</span>
                 }
                 {this.state.editMode &&
                 <div>
